@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 12px 12px;
+}
+
+.logo {
+  margin-left: 0;
+  margin-right: auto;
+  height: 80px;
+  width: 80px;
+}
+
+.menu,
+.menu > a {
+  padding: 6px 24px;
+}
+
+.menu > a {
+  color: #2a3439;
+  font-size: 18px;
+}
