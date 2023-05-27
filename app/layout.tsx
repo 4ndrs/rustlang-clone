@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Fira_Sans } from "next/font/google";
 import NavBar from "./navbar";
+import Footer from "./footer";
 
 const fira = Fira_Sans({ subsets: ["latin"], weight: "400" });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={fira.className}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

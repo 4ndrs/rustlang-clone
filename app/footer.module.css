@@ -1,0 +1,57 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #2a3439;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer h1 {
+  font-size: 21.6px;
+  margin-bottom: 24px;
+}
+
+.footer menu {
+  list-style: none;
+}
+
+.footer a {
+  color: #ffc832;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.container menu {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.help menu {
+  margin-bottom: 18px;
+}
+
+.social menu {
+  flex-direction: row;
+  gap: 0;
+}
+
+.social img {
+  width: 60px;
+  height: 60px;
+  padding: 0 10px;
+}
+
+.bottomMessage {
+  text-align: center;
+  padding-top: 30px;
+}
