@@ -12,12 +12,17 @@
   width: 80px;
 }
 
+.menu {
+  list-style: none;
+  display: flex;
+}
+
 .menu,
-.menu > a {
+.menu a {
   padding: 6px 24px;
 }
 
-.menu > a {
+.menu a {
   color: #2a3439;
   font-size: 18px;
 }

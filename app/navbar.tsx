@@ -10,13 +10,27 @@ const NavBar = () => (
     <Image src={RustLogo} alt="Rust logo" className={styles.logo} />
 
     <menu className={styles.menu}>
-      <Link href="#">Install</Link>
-      <Link href="#">Learn</Link>
-      <Link href="#">Playground</Link>
-      <Link href="#">Tools</Link>
-      <Link href="#">Governance</Link>
-      <Link href="#">Community</Link>
-      <Link href="#">Blog</Link>
+      <li>
+        <Link href="#">Install</Link>
+      </li>
+      <li>
+        <Link href="#">Learn</Link>
+      </li>
+      <li>
+        <Link href="#">Playground</Link>
+      </li>
+      <li>
+        <Link href="#">Tools</Link>
+      </li>
+      <li>
+        <Link href="#">Governance</Link>
+      </li>
+      <li>
+        <Link href="#">Community</Link>
+      </li>
+      <li>
+        <Link href="#">Blog</Link>
+      </li>
     </menu>
 
     <LanguageSelect />
