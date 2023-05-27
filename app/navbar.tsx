@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import RustLogo from "./rust-logo-blk.svg";
+import LanguageSelect from "./language-select";
 
 import styles from "./navbar.module.css";
 
@@ -18,9 +19,7 @@ const NavBar = () => (
       <Link href="#">Blog</Link>
     </menu>
 
-    <select>
-      <option>English (en-US)</option>
-    </select>
+    <LanguageSelect />
   </nav>
 );
 
