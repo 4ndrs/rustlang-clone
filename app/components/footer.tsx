@@ -85,7 +85,7 @@ const Footer = () => (
 
       <div className={styles.bottomMessage}>
         <p>
-          Maintained by the Rust Team, See a bug? <a href="#">File an issue!</a>
+          Maintained by the Rust Team. See a bug? <a href="#">File an issue!</a>
         </p>
         <p>
           Looking for the <a href="#">previous website</a>?
