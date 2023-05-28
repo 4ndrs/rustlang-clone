@@ -28,7 +28,7 @@ const WhyRust = () => (
           <h1>Productivity</h1>
           <p>
             Rust has great documentation, a friendly compiler with useful error
-            messages, and top-noth tooling - an integrated package manager and
+            messages, and top-noth tooling — an integrated package manager and
             build tool, smart multi-editor support with atuto-completion and
             type inspections, an auto-formatter, and more.
           </p>
