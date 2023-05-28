@@ -1,0 +1,20 @@
+.background {
+  background-color: rgb(11, 114, 97);
+}
+
+.whyRust {
+  color: white;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 30px 12px 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container article {
+  margin-top: 24px;
+  max-width: 344px;
+}
