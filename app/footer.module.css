@@ -1,7 +1,12 @@
+.background {
+  background-color: #2a3439;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: #2a3439;
+  max-width: var(--content-width);
+  margin: 0 auto;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -9,7 +14,7 @@
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .footer h1 {
