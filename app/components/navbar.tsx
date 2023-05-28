@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import RustLogo from "./assets/rust-logo-blk.svg";
+import RustLogo from "../assets/rust-logo-blk.svg";
 import LanguageSelect from "./language-select";
 
 import styles from "./navbar.module.css";

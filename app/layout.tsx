@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Fira_Sans } from "next/font/google";
-import NavBar from "./navbar";
-import Footer from "./footer";
+import NavBar from "./components/navbar";
+import Footer from "./components/footer";
 
 import styles from "./layout.module.css";
 
