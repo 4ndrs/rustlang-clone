@@ -2,10 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import LanguageSelect from "./language-select";
 
-import TwitterLogo from "./twitter.svg";
-import YoutubeLogo from "./youtube.svg";
-import DiscordLogo from "./discord.svg";
-import GithubLogo from "./github.svg";
+import TwitterLogo from "./assets/twitter.svg";
+import YoutubeLogo from "./assets/youtube.svg";
+import DiscordLogo from "./assets/discord.svg";
+import GithubLogo from "./assets/github.svg";
 
 import styles from "./footer.module.css";
 
