@@ -1,7 +1,7 @@
+import Link from "next/link";
 import { Alfa_Slab_One } from "next/font/google";
 
 import styles from "./hero.module.css";
-import Link from "next/link";
 
 const alfa = Alfa_Slab_One({ subsets: ["latin"], weight: "400" });
 
