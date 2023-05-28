@@ -1,3 +1,11 @@
-const Page = () => <h1>Hello, Next.js!</h1>;
+import Hero from "./components/hero";
+
+import styles from "./page.module.css";
+
+const Page = () => (
+  <main className={styles.main}>
+    <Hero />
+  </main>
+);
 
 export default Page;
