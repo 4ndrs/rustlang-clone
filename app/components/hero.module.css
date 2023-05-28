@@ -1,0 +1,65 @@
+.background {
+  background-color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--content-width);
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero p {
+  line-height: 1.25;
+  font-size: 36px;
+}
+
+.ctaContainer {
+  display: flex;
+  flex-direction: column;
+  width: 338px;
+}
+
+.button {
+  text-decoration: unset;
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(255, 200, 50);
+  font-family: inherit;
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  line-height: inherit;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: unset;
+  border-color: black;
+}
+
+.versionLink {
+  align-self: center;
+  text-decoration: underline;
+  font-size: 27px;
+  color: rgb(66, 153, 191);
+  margin-top: 12px;
+}
+
+.versionLink:hover {
+  cursor: pointer;
+}
