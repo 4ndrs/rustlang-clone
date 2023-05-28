@@ -3,6 +3,8 @@ import { Fira_Sans } from "next/font/google";
 import NavBar from "./navbar";
 import Footer from "./footer";
 
+import styles from "./layout.module.css";
+
 const fira = Fira_Sans({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
@@ -17,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={fira.className}>
+      <body className={`${fira.className} ${styles.container}`}>
         <NavBar />
         {children}
         <Footer />
