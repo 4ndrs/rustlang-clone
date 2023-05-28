@@ -89,6 +89,14 @@ const Footer = () => (
       <p>
         Looking for the <a href="#">previous website</a>?
       </p>
+      <p>
+        (This is a clone made for the sole purpose of learning. All credits goes
+        to the creators of the{" "}
+        <a rel="noreferrer" target="_blank" href="https://rust-lang.org">
+          official website
+        </a>
+        .)
+      </p>
     </div>
   </footer>
 );
