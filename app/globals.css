@@ -12,3 +12,19 @@ body {
   font-size: 18px;
   line-height: 1.6;
 }
+
+.highlight {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.highlight::after {
+  content: "";
+  height: 12px;
+  width: 120%;
+  background-color: rgb(46, 36, 89);
+  position: absolute;
+  top: 45px;
+  left: -10px;
+}
