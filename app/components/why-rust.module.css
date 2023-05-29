@@ -9,6 +9,13 @@
   padding: 30px 12px 60px;
 }
 
+.whyRust h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: 1px;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -17,4 +24,14 @@
 .container article {
   margin-top: 24px;
   max-width: 344px;
+}
+
+.container h1 {
+  margin-bottom: 36px;
+  font-weight: 600;
+  letter-spacing: unset;
+}
+
+.container p {
+  margin-bottom: 30px;
 }
