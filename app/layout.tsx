@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 
 import styles from "./layout.module.css";
 
-const fira = Fira_Sans({ subsets: ["latin"], weight: "400" });
+const fira = Fira_Sans({ subsets: ["latin"], weight: ["400", "600", "800"] });
 
 export const metadata = {
   title: "Create Next App",
