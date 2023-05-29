@@ -1,0 +1,51 @@
+.background {
+  background-color: rgb(46, 36, 89);
+}
+
+.buildItInRust > h1 {
+  padding: 10px 0 30px;
+}
+
+.buildItInRust > h1::after {
+  background-color: rgb(167, 33, 69);
+  margin-top: 10px;
+}
+
+.buildItInRust > p a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.container h1 {
+  margin-bottom: 36px;
+  font-weight: 600;
+  letter-spacing: unset;
+  align-self: center;
+}
+
+.container p {
+  margin-bottom: 30px;
+}
+
+.container img {
+  width: 96px;
+  height: 96px;
+  align-self: center;
+}
+
+.container a {
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+.container article {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  max-width: 344px;
+}
