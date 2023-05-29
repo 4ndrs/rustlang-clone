@@ -2,20 +2,6 @@
   background-color: rgb(11, 114, 97);
 }
 
-.whyRust {
-  color: white;
-  max-width: var(--content-width);
-  margin: 0 auto;
-  padding: 30px 12px 60px;
-}
-
-.whyRust h1 {
-  font-size: 36px;
-  font-weight: 800;
-  line-height: 1.25;
-  letter-spacing: 1px;
-}
-
 .container {
   display: flex;
   justify-content: space-between;

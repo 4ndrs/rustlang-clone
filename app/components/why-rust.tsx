@@ -2,7 +2,7 @@ import styles from "./why-rust.module.css";
 
 const WhyRust = () => (
   <div className={styles.background}>
-    <section className={styles.whyRust}>
+    <section className="sectionDefaults">
       <h1 className="highlight">Why Rust?</h1>
 
       <div className={styles.container}>

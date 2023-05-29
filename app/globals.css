@@ -28,3 +28,17 @@ body {
   top: 45px;
   left: -10px;
 }
+
+.sectionDefaults {
+  color: white;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 30px 12px 60px;
+}
+
+.sectionDefaults h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: 1px;
+}
