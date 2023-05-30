@@ -70,3 +70,14 @@ body {
   outline: unset;
   border-color: black;
 }
+
+.redButton {
+  color: white;
+  background-color: rgb(167, 33, 69);
+}
+
+.redButton:hover,
+.redButton:focus-visible {
+  outline: unset;
+  border-color: white;
+}
