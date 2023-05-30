@@ -34,7 +34,9 @@ const BuildItInRust = () => (
             helps you maintain your app with confidence and distribute it with
             ease.
           </p>
-          <Link href="#">Building tools</Link>
+          <Link href="#" className="button">
+            Building tools
+          </Link>
         </article>
 
         <article>
@@ -45,7 +47,9 @@ const BuildItInRust = () => (
             Pulish to npm, bundle with webpack, and you&apos;re off to the
             races.
           </p>
-          <Link href="#">Writing web apps</Link>
+          <Link href="#" className="button">
+            Writing web apps
+          </Link>
         </article>
 
         <article>
@@ -55,7 +59,9 @@ const BuildItInRust = () => (
             Predictable performance. Tiny resource footprint. Rock-solid
             reliability. Rust is great for network services.
           </p>
-          <Link href="#">Working on servers</Link>
+          <Link href="#" className="button">
+            Working on servers
+          </Link>
         </article>
 
         <article>
@@ -65,7 +71,9 @@ const BuildItInRust = () => (
             Targeting low-resource devices? Need low-level control without
             giving up high-level conveniences? Rust has you covered.
           </p>
-          <Link href="#">Starting with embedded</Link>
+          <Link href="#" className="button">
+            Starting with embedded
+          </Link>
         </article>
       </div>
     </section>

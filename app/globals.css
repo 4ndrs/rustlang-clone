@@ -42,3 +42,31 @@ body {
   line-height: 1.25;
   letter-spacing: 1px;
 }
+
+.button {
+  text-decoration: unset;
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 8px 30px;
+  margin-top: 20px;
+  background-color: rgb(255, 200, 50);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  line-height: inherit;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: unset;
+  border-color: black;
+}

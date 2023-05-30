@@ -17,7 +17,7 @@ const Hero = () => (
       </div>
 
       <div className={styles.ctaContainer}>
-        <Link href="#" className={styles.button}>
+        <Link href="#" className="button">
           Get started
         </Link>
         <a
