@@ -11,7 +11,7 @@ const WhyRust = () => (
           <p>
             Rust is blazingly fast and memory-efficient: with no runtime or
             garbage collector, it can power performance-critical services, run
-            on embedded devices, and esily integrate with other languages.
+            on embedded devices, and easily integrate with other languages.
           </p>
         </article>
 
