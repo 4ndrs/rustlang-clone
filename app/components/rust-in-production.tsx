@@ -1,4 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
+
+import NpmLogo from "../assets/npm.svg";
+import YelpLogo from "../assets/yelp.png";
 
 import styles from "./rust-in-production.module.css";
 
@@ -42,6 +46,9 @@ const RustInProduction = () => (
         amazing compliment.
       </blockquote>
       <figcaption>- Chris Dickinson, Engineer at npm, Inc</figcaption>
+      <a rel="noreferrer" href="https://www.npmjs.com/">
+        <Image alt="npm logo" src={NpmLogo} />
+      </a>
     </figure>
     <hr />
     <figure>
@@ -50,6 +57,9 @@ const RustInProduction = () => (
         all the tools to succeed in writing Rust code.
       </blockquote>
       <figcaption>- Antonio Verardi, Infrastructure Engineer</figcaption>
+      <a rel="noreferrer" href="https://www.youtube.com/watch?v=u6ZbF4apABk">
+        <Image alt="Yelp logo" src={YelpLogo} />
+      </a>
     </figure>
 
     <Link href="#" className="button">
