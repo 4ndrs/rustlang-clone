@@ -1,6 +1,7 @@
 import Hero from "./components/hero";
 import WhyRust from "./components/why-rust";
 import BuildItInRust from "./components/build-it-in-rust";
+import RustInProduction from "./components/rust-in-production";
 
 import styles from "./page.module.css";
 
@@ -9,6 +10,7 @@ const Page = () => (
     <Hero />
     <WhyRust />
     <BuildItInRust />
+    <RustInProduction />
   </main>
 );
 
