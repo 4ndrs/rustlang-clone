@@ -1,0 +1,21 @@
+.rustInProduction {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 27px;
+  line-height: 1.5;
+}
+
+.rustInProduction a {
+  color: rgb(42, 52, 57);
+}
+
+.rustInProduction h1 {
+  align-self: flex-start;
+  padding: 10px 0 30px;
+}
+
+.rustInProduction h1::after {
+  background-color: rgb(255, 200, 50);
+  margin-top: 10px;
+}

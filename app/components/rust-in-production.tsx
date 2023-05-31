@@ -1,8 +1,10 @@
 import Link from "next/link";
 
+import styles from "./rust-in-production.module.css";
+
 const RustInProduction = () => (
-  <section>
-    <h1>Rust in production</h1>
+  <section className={styles.rustInProduction + " sectionDefaults"}>
+    <h1 className="highlight">Rust in production</h1>
     <p>
       Hundreds of companies around the world are using Rust in prodcution today
       for fast, low-resource, cross-platform solutions. Software you know and
