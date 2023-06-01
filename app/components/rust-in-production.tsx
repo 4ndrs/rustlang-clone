@@ -15,7 +15,7 @@ const RustInProduction = () => (
       love, like{" "}
       <a
         rel="noreferrer"
-        href=">https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/"
+        href="https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/"
       >
         Firefox
       </a>
@@ -40,26 +40,30 @@ const RustInProduction = () => (
       </strong>
     </p>
 
-    <figure>
-      <blockquote>
-        My biggest compliment to Rust is that it&apos;s boring, and this is an
-        amazing compliment.
-      </blockquote>
-      <figcaption>- Chris Dickinson, Engineer at npm, Inc</figcaption>
+    <figure className={styles.quote}>
+      <div>
+        <blockquote>
+          My biggest compliment to Rust is that it&apos;s boring, and this is an
+          amazing compliment.
+        </blockquote>
+        <figcaption>- Chris Dickinson, Engineer at npm, Inc</figcaption>
+      </div>
       <a rel="noreferrer" href="https://www.npmjs.com/">
         <Image alt="npm logo" src={NpmLogo} />
       </a>
     </figure>
     <hr />
-    <figure>
-      <blockquote>
-        All the documentation, the tooling, the community is great - you have
-        all the tools to succeed in writing Rust code.
-      </blockquote>
-      <figcaption>- Antonio Verardi, Infrastructure Engineer</figcaption>
+    <figure className={styles.quote}>
       <a rel="noreferrer" href="https://www.youtube.com/watch?v=u6ZbF4apABk">
         <Image alt="Yelp logo" src={YelpLogo} />
       </a>
+      <div>
+        <blockquote>
+          All the documentation, the tooling, the community is great - you have
+          all the tools to succeed in writing Rust code.
+        </blockquote>
+        <figcaption>- Antonio Verardi, Infrastructure Engineer</figcaption>
+      </div>
     </figure>
 
     <Link href="#" className="button">
