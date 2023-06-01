@@ -45,6 +45,7 @@
   margin: 27px 40px;
   padding: 5px;
   border-bottom: 1px dotted black;
+  color: rgb(42, 52, 57);
 }
 
 .quote blockquote::before {
