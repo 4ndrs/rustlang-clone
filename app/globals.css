@@ -81,3 +81,14 @@ body {
   outline: unset;
   border-color: white;
 }
+
+.blueButton {
+  color: white;
+  background-color: rgb(46, 36, 89);
+}
+
+.blueButton:hover,
+.blueButton:focus-visible {
+  outline: unset;
+  border-color: white;
+}
