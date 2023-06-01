@@ -11,7 +11,7 @@ const GetInvolved = () => (
           <h1>Read Rust</h1>
           <p>
             We love documentation! Take a look at the books available online, as
-            well as key blog posts and userguides.
+            well as key blog posts and user guides.
           </p>
           <Link href="#" className="button blueButton">
             Read the book
@@ -38,7 +38,7 @@ const GetInvolved = () => (
           <p>
             Rust is truly a community effort, and we welcome contribution from
             hobbysts and production users, from newcomers and seasoned
-            professionals. Come help us make the Rust experience event better!
+            professionals. Come help us make the Rust experience even better!
           </p>
           <a
             rel="noreferrer"
