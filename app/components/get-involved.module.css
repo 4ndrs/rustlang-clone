@@ -1,0 +1,46 @@
+.background {
+  background-color: rgb(167, 33, 69);
+}
+
+.getInvolved > h1 {
+  padding: 10px 0 30px;
+}
+
+.getInvolved > h1::after {
+  margin-top: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "readRust watchRust"
+    "contributeCode contributeCode";
+  column-gap: 24px;
+  row-gap: 12px;
+}
+
+.container h1 {
+  font-size: 27px;
+  margin-bottom: 27px;
+}
+
+.container p {
+  margin-bottom: 10px;
+}
+
+.container > article {
+  display: flex;
+  flex-direction: column;
+}
+
+.readRust {
+  grid-area: readRust;
+}
+
+.watchRust {
+  grid-area: watchRust;
+}
+
+.contributeCode {
+  grid-area: contributeCode;
+}
