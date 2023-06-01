@@ -1,0 +1,45 @@
+.background {
+  background-color: white;
+}
+
+.thanks {
+  color: black;
+}
+
+.thanks > h1 {
+  padding: 10px 0 30px;
+}
+
+.thanks > h1::after {
+  background-color: #ffc832;
+  margin-top: 10px;
+}
+
+.thanks > p {
+  font-size: 27px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  gap: 24px;
+}
+
+.container article {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  margin-bottom: 27px;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: normal;
+}
+
+.container p {
+  margin-bottom: 10px;
+}

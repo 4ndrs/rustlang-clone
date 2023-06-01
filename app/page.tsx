@@ -3,6 +3,7 @@ import WhyRust from "./components/why-rust";
 import BuildItInRust from "./components/build-it-in-rust";
 import RustInProduction from "./components/rust-in-production";
 import GetInvolved from "./components/get-involved";
+import Thanks from "./components/thanks";
 
 import styles from "./page.module.css";
 
@@ -13,6 +14,7 @@ const Page = () => (
     <BuildItInRust />
     <RustInProduction />
     <GetInvolved />
+    <Thanks />
   </main>
 );
 
