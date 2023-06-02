@@ -92,3 +92,13 @@ body {
   outline: unset;
   border-color: white;
 }
+
+@media (max-width: 959.2px) {
+  body {
+    font-size: 15px;
+  }
+
+  .sectionDefaults h1 {
+    font-size: 30px;
+  }
+}
