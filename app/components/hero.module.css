@@ -42,3 +42,29 @@
 .versionLink:hover {
   cursor: pointer;
 }
+
+@media (max-width: 959.2px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .ctaContainer {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 22.5px;
+  }
+
+  .ctaContainer a:first-child {
+    font-size: 22.5px;
+  }
+
+  .versionLink {
+    font-size: 15px;
+  }
+}
